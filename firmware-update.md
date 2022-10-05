@@ -2,7 +2,7 @@
 
 The RAD-Meteor supports a field update of firmware. This works on Linux, Windows and Mac.&#x20;
 
-The current version of the firmware is shown on the [main screen](display-main-screen.md).
+The current version of the firmware is shown on the [main screen](display-main-screen/).
 
 ## Firmware Update Process
 

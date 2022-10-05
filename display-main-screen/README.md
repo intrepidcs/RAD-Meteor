@@ -2,17 +2,17 @@
 
 The default screen for RAD-Meteor shows statistics of the T1s network. Figure 1 below shows the main screen.
 
-<figure><img src=".gitbook/assets/2022-10-05 13_11_28-Window.png" alt=""><figcaption><p>Figure 1 - The Main contains a lot of information about the T1s network.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2022-10-05 13_11_28-Window.png" alt=""><figcaption><p>Figure 1 - The Main contains a lot of information about the T1s network.</p></figcaption></figure>
 
 ## Buttons
 
 There are 3 function buttons on the main screen. They are below
 
-"A" to Enter the [Test mode generation feature](10baset1s-test-modes.md)
+"A" to Enter the [Test mode generation feature](../10baset1s-test-modes.md)
 
-"B"  to Enter the simulation mode feature
+"B"  to Enter the simulation mode feature (to be implemented - contact factory)
 
-"X" to enter the device setup
+"X" to enter the [device setup](display-setup-screens.md)
 
 ##
 
