@@ -21,4 +21,9 @@ RAD-Meteor is a low cost device for interacting with 10BaseT1s ([IEEE Std 802.3c
 * Device configuration and status register reporting over UDP
 * 320 x 240 Color Display for [monitoring network and displaying status registers of MAC](display-main-screen.md)
 * 3 buttons for stand alone operations such as [10BASE-T1S test modes](10baset1s-test-modes.md) and network setup
+* [Field update of firmware](firmware-update.md)
+
+
+
+FW Revision 1 : [Device Release History](device-release-history.md)
 
