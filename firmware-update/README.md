@@ -2,7 +2,7 @@
 
 The RAD-Meteor supports a field update of firmware. This works on Linux, Windows and Mac.&#x20;
 
-The current version of the firmware is shown on the [main screen](display-main-screen/).
+The current version of the firmware is shown on the [main screen](../display-main-screen/).
 
 ## Firmware Update Process
 
@@ -16,4 +16,4 @@ The current version of the firmware is shown on the [main screen](display-main-s
 
 5\) When done RAD-Meteor will disconnect from USB and reconnect as a USB NIC (normal operation)
 
-<figure><img src=".gitbook/assets/2022-10-05 14_15_36-Window.png" alt=""><figcaption><p>Figure 1 - The boot load button is on the bottom of RAD-Meteor</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2022-10-05 14_15_36-Window.png" alt=""><figcaption><p>Figure 1 - The boot load button is on the bottom of RAD-Meteor</p></figcaption></figure>
