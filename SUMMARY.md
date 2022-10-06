@@ -5,6 +5,7 @@
 * [10BaseT1s Test Modes](10baset1s-test-modes.md)
 * [Display: Main Screen](display-main-screen/README.md)
   * [Display: Setup Screens](display-main-screen/display-setup-screens.md)
+* [Host USB Commands](host-usb-commands.md)
 * [Firmware Update](firmware-update/README.md)
   * [Device Release History](firmware-update/device-release-history.md)
 * [Specifications](specifications.md)
