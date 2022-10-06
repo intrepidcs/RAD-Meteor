@@ -27,3 +27,4 @@ RAD-Meteor is a low cost device for interacting with 10BaseT1s ([IEEE Std 802.3c
 
 FW Revision 1 : [Device Release History](firmware-update/device-release-history.md)
 
+[Specifications](specifications.md)

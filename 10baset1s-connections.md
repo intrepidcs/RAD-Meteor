@@ -10,7 +10,7 @@ The RAD-Meteor has a screw terminal block for connection to a 10BaseT1s Ethernet
 
 To help connecting wires, the terminal block silkscreen had the the text "P" to indicate bus positive and "N" for bus negative.
 
-The schematic for the analog front end termination is shown in figure 2. This is the schematic as designed by the LAN867x PHY manufacturer ([Microchip](https://www.microchip.com)).
+The schematic for the analog front end termination is shown in figure 2. This is the schematic as designed by the LAN867x PHY manufacturer ([Microchip](https://www.microchip.com) LAN86xx Bus Interface Network (BIN)).
 
 <figure><img src=".gitbook/assets/2022-10-05 09_19_06-RADMeteor Documentation Drawings - Google Docs — Mozilla Firefox.png" alt=""><figcaption><p>Figure 1 - 10BaseT1s connector with Termination Jumpers</p></figcaption></figure>
 
