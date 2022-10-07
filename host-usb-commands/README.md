@@ -10,6 +10,12 @@ Similarly RAD-Meteor will send responses or status using this same mac address.
 
 Please see the RAD-Meteor settings project on GitHub to use as an example app (Figure 1).&#x20;
 
+## Settings App Example
+
+The RAD Meteor example settings app is an open source app from Intrepid. The Windows App is below. You need to install [WinPCAP ](https://www.winpcap.org/install/)for this to work.
+
+{% file src="../.gitbook/assets/RADMeteorSettingsV1.zip" %}
+
 <figure><img src="../.gitbook/assets/settings_app.png" alt=""><figcaption><p>Figure 1 - The settings example is a winpcap application that sends the settings host command.</p></figcaption></figure>
 
 ## Commands
