@@ -10,7 +10,7 @@ The current version of the firmware is shown on the [main screen](../display-mai
 
 2\) Hold boot load button and plug in USB. It is on the bottom of RAD-Meteor. Please see figure 1 below.
 
-3\) The host computer will show RAD-Meteor as a flash drive
+3\) The host computer will show RAD-Meteor as a flash drive. Figure 2.
 
 4\) Copy the UF2 file to the flash drive. Allow firmware to update.
 
@@ -21,3 +21,5 @@ The current version of the firmware is shown on the [main screen](../display-mai
 {% file src="../.gitbook/assets/flash_nuke.uf2" %}
 
 <figure><img src="../.gitbook/assets/2022-10-05 14_15_36-Window.png" alt=""><figcaption><p>Figure 1 - The boot load button is on the bottom of RAD-Meteor</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/usb_drive_bootload.png" alt=""><figcaption><p>Figure 2 - The boot-loader is presented as a USB drive.</p></figcaption></figure>

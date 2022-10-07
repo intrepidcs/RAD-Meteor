@@ -13,8 +13,8 @@ RAD-Meteor is a low cost device for interacting with 10BaseT1s ([IEEE Std 802.3c
 ## Basic Features
 
 * USB Network Adapter with 10BASE-T1S Physical Layer (PHY)
-* Enumerates as standard Ethernet NIC in Linux or Windows.
-* Monitor Ethernet with [Wireshark ](https://www.wireshark.org/)or [Vehicle Spy](https://intrepidcs.com/products/software/vehicle-spy/)
+* Enumerates as standard Ethernet NIC in [Linux ](using-on-linux.md)or [Windows](using-on-windows/).
+* Monitor Ethernet with [Wireshark ](https://www.wireshark.org/)or [Vehicle Spy](using-on-windows/using-in-vehicle-spy.md)
 * TX/RX with socket applications
 * Microchip LAN867X 10BASE-T1S PHY
 * [Terminal Block](10baset1s-connections.md) with optional termination for T1S connections
