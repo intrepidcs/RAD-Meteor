@@ -4,7 +4,7 @@
 
 ## Overview
 
-The RAD-Meteor has the ability to receive commands over the normal Ethernet data stream. RAD-Meteor will intercept host messages targeted to the MAC Address **00:FC:70:1C:00:00.** These Ethernet frames are processed by RAD-Meteor and discarded (they are not sent on the bus.
+The RAD-Meteor has the ability to receive commands over the normal Ethernet data stream. RAD-Meteor will intercept host messages targeted to the MAC Address **00:FC:70:1C:00:00.** These Ethernet frames are processed by RAD-Meteor and discarded (they are not sent on the T1s bus).
 
 Similarly RAD-Meteor will send responses or status using this same mac address.
 
@@ -20,7 +20,7 @@ The RAD Meteor example settings app is an open source app from Intrepid. The Win
 
 ## Commands
 
-The data payload begins at 42 bytes. The first two bytes of the payload are the command in big endian format (AA is first byte).  The command's data begins right after the command (44 bytes). The table below lists the commands.
+The data payload begins at 42 bytes. The first two bytes of the payload are the command in big endian format (AA is the first byte).  The command's data begins right after the command (44 bytes). The table below lists the commands.
 
 | Command                      | ID     | Notes |
 | ---------------------------- | ------ | ----- |
@@ -39,15 +39,15 @@ The settings command allows you to set the device settings from the host. You ca
 
 **Data**
 
-| Position                                 | ID | Notes                                                                                        |
-| ---------------------------------------- | -- | -------------------------------------------------------------------------------------------- |
-| HOST\_SETTING\_PLCA\_ENABLE              | 0  | 1 to enable, 0 Disable                                                                       |
-| HOST\_SETTING\_PLCA\_LOCAL\_ID           | 1  |                                                                                              |
-| HOST\_SETTING\_BUS\_NODE\_COUNT          | 2  |                                                                                              |
-| HOST\_SETTING\_MAX\_BURST\_CNT           | 3  |                                                                                              |
-| HOST\_SETTING\_BURST\_TIMER              | 4  |                                                                                              |
-| HOST\_SETTING\_TX\_OPP\_TMR              | 5  |                                                                                              |
-| HOST\_SETTING\_TEST\_MODE                | 6  | 0 = enter normal mode, 1-4 = [Test Modes](../10baset1s-test-modes.md) (Not saved as default) |
-| HOST\_SETTING\_STATUS\_INTERVAL\_LSB     | 7  | Bytes 7 and 8 are 16 bit value for reporting register status in milliseconds. 0 = disabled   |
-| HOST\_SETTING\_SAVE\_SETTINGS\_TO\_FLASH | 9  | 1 = update as power up defaults, 0 = do not update.                                          |
+| Position                                 | ID | Notes                                                                                                 |
+| ---------------------------------------- | -- | ----------------------------------------------------------------------------------------------------- |
+| HOST\_SETTING\_PLCA\_ENABLE              | 0  | 1 to enable, 0 Disable                                                                                |
+| HOST\_SETTING\_PLCA\_LOCAL\_ID           | 1  |                                                                                                       |
+| HOST\_SETTING\_BUS\_NODE\_COUNT          | 2  |                                                                                                       |
+| HOST\_SETTING\_MAX\_BURST\_CNT           | 3  |                                                                                                       |
+| HOST\_SETTING\_BURST\_TIMER              | 4  |                                                                                                       |
+| HOST\_SETTING\_TX\_OPP\_TMR              | 5  |                                                                                                       |
+| HOST\_SETTING\_TEST\_MODE                | 6  | 0 = enter normal mode, 1-4 = [Test Modes](../10baset1s-test-modes.md) (Not saved in flash as default) |
+| HOST\_SETTING\_STATUS\_INTERVAL\_LSB     | 7  | Bytes 7 and 8 are 16 bit value for reporting register status in milliseconds. 0 = disabled            |
+| HOST\_SETTING\_SAVE\_SETTINGS\_TO\_FLASH | 9  | 1 = update as power up defaults, 0 = do not update.                                                   |
 

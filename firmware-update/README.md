@@ -16,7 +16,7 @@ The current version of the firmware is shown on the [main screen](../display-mai
 
 5\) When done RAD-Meteor will disconnect from USB and reconnect as a USB NIC (normal operation)
 
-**Note** If flash fails you can erase the flash using the nuke.uf2 file.  Just follow the above steps using the the nuke.uf2. Then re-flash with the RAD-Meteor UF2 file.
+**Note** If flash fails you can erase the flash using the nuke.uf2 file.  Just follow the above steps using the the nuke.uf2. Then re-flash with the RAD-Meteor UF2 file. This will also erase any default settings.
 
 {% file src="../.gitbook/assets/flash_nuke.uf2" %}
 

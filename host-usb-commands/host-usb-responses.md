@@ -2,7 +2,7 @@
 
 ## Overview
 
-The RAD-Meteor can generate Ethernet frames that occur across the USB interface only for device status. ThThese can be used by the host to provide additional information about the T1s network. For example the status message contains status information like on the [main screen](../display-main-screen/).
+The RAD-Meteor can generate Ethernet frames that occur across the USB interface only. These responses allow the RAD-Meteor to communicate status to the host.  For example, these responses can provide additional information about the T1s network. For example the status message contains status information like on the [main screen](../display-main-screen/).
 
 {% file src="../.gitbook/assets/RADMeteor.vs3" %}
 Vehicle Spy Setup File to decode status messages
@@ -24,7 +24,7 @@ The data payload begins at 42 bytes. The first two bytes of the payload are the 
 
 ## Status Response&#x20;
 
-&#x20;The status response is sent on a interval when commanded by Settings command. It contains device status such as PHY settings, Network statistics, and device performance.
+&#x20;The status response is sent on a interval when commanded by the [Settings command](./#settings-command). It contains device status such as PHY settings, Network statistics, and device performance.
 
 
 
@@ -34,8 +34,8 @@ The data payload begins at 42 bytes. The first two bytes of the payload are the 
 | HOST\_RESPONSE\_STATUS\_PLCASTATUS1          | 1  | little endian bitfield | See below       |
 | HOST\_RESPONSE\_STATUS\_PLCASTATUS2          | 3  |                        | Not Implemented |
 | HOST\_RESPONSE\_STATUS\_PLCASTATUS3          | 5  |                        | Not Implemented |
-| HOST\_RESPONSE\_STATUS\_BEACON\_COUNT        | 7  | uint32                 |                 |
-| HOST\_RESPONSE\_STATUS\_TX\_OPPORTUNITY\_CNT | 11 | uint32                 |                 |
+| HOST\_RESPONSE\_STATUS\_BEACON\_COUNT        | 7  | uint32                 | Not Implemented |
+| HOST\_RESPONSE\_STATUS\_TX\_OPPORTUNITY\_CNT | 11 | uint32                 | Not Implemented |
 |                                              |    |                        |                 |
 |                                              |    |                        |                 |
 |                                              |    |                        |                 |

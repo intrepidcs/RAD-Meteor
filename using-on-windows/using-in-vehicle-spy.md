@@ -10,11 +10,13 @@ Vehicle Spy from Intrepid contains many features for analyzing Ethernet networks
 
 ## Setting up Vehicle Spy
 
-First its recommend to give your RAD-Meteor a custom name as described in [Windows setup](./).
+First it is recommended to give your RAD-Meteor a custom name. This is described in the [Windows setup](./) topic.
 
-To use vehicle spy you must have a license hardware such as ValueCAN to use RADMeteor. After this you need to select "Use PC Ethernet interface" from the setup menu form Tools->Options.
+Vehicle Spy is licensed software. To use Vehicle Spy with RAD-Meteor, you must have a licensed hardware such as Value-CAN or neoVI.&#x20;
 
-<figure><img src="../.gitbook/assets/VSPYSetup.png" alt=""><figcaption><p>Figure 1 - Use must enable Ethernet NIC feature of Vehicle Spy to use a NIC</p></figcaption></figure>
+To use RAD-Meteor you must enable Ethernet NIC support inside Vehicle Spy. Enter the options dialog from the Tools drop down menu. Then select the check box: "Use PC Ethernet interface" (Figure 1).
+
+<figure><img src="../.gitbook/assets/VSPYSetup.png" alt=""><figcaption><p>Figure 1 - You must enable the Ethernet NIC feature of Vehicle Spy to use a RAD-Meteor</p></figcaption></figure>
 
 Next you have to enable the correct NIC from the logon screen. The Ethernet interfaces are listed in the lower left corner (Figure 2). You can only connect to one Ethernet NIC at a time.
 

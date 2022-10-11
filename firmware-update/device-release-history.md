@@ -1,6 +1,6 @@
 # Device Release History
 
-## Firmware Release Revision 1
+## Firmware Release Revision 2
 
 ### Errata:
 

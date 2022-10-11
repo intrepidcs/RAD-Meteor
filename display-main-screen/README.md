@@ -2,7 +2,7 @@
 
 The default screen for RAD-Meteor shows statistics of the T1s network. Figure 1 below shows the main screen.
 
-<figure><img src="../.gitbook/assets/2022-10-05 13_11_28-Window.png" alt=""><figcaption><p>Figure 1 - The Main contains a lot of information about the T1s network.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2022-10-05 13_11_28-Window.png" alt=""><figcaption><p>Figure 1 - The Main screen contains a lot of information about the T1s network.</p></figcaption></figure>
 
 ## Buttons
 

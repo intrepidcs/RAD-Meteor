@@ -2,7 +2,7 @@
 
 The specification which defines 10BaseT1s ([IEEE Std 802.3cg](https://standards.ieee.org/search/?q=802.3cg)) specifies specific test mode wave forms to test the PHY. These can be enabled using RAD-Meteor.
 
-There are two ways to enter the test modes. The first is using the buttons and the second is using a specific setup command from the host.
+There are two ways to enter the test modes. The first is using the buttons and the second is using a [specific setup command](host-usb-commands/) from the host.
 
 ## Using Buttons to use Test Modes
 
