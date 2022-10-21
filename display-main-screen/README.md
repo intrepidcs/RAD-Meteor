@@ -14,7 +14,7 @@ There are 3 function buttons on the main screen. They are below
 
 "X" to enter the [device setup](display-setup-screens.md)
 
-##
+"Y" is not functional
 
 ## Device Setup Information
 
@@ -29,7 +29,6 @@ The first two lines of the display show the device's setup.
 | Burst   | When burst mode is enabled, this field configures the amount of time allowed following the transmission of a frame which the node will continue to transmit and hold the multidrop network waiting for the MAC to transmit an additional frame. Should the timer expire before the MAC transmits an additional frame, or if the maximum number of frames allowed to be transmitted in a single burst has been exceeded, the node will stop transmitting and yield the network to the next transmit opportunity. The time is represented in increments of 100 ns (i.e., 1 BT). | Note: The minimum value should be equal to the MAC inter-frame gap (IFG) plus margin for the latency between the MAC and PHY. IFG is 96 bit times for 10Mbit Ethernet.                                                                                                                                                                  |
 | Max     | This field configures the maximum number of additional frames that the node may transmit in a single transmit opportunity. When set to 0, the PLCA burst mode is disabled and only one frame will be transmitted per transmit opportunity.r Burst how many frames allowed. 0 means burst is disabled                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                         |
 | MAC     | Lower 3 bytes of MAC address. The upper 3 bytes are Intrepid **00-FC-70**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                         |
-|         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                         |
 
 ## Transmit and Receive Statistics
 
@@ -62,4 +61,3 @@ The display shows information gathered by the PHY status registers. These items 
 ## General Device information
 
 The last line of the display indicates the firmware revision of RAD-Meteor and the USB connection status. (1 meaning connected)
-
