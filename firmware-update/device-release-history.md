@@ -1,7 +1,7 @@
 # Device Release History
 
-## Firmware Release Revision 2
+## Firmware Release Revision 5
 
-### Errata:
+### Notes:
 
-1. Company Internal Release only
+1. First Release.
