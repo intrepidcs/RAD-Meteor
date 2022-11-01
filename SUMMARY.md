@@ -10,7 +10,7 @@
 * [Using on Linux](using-on-linux.md)
 * [Host USB Commands](host-usb-commands/README.md)
   * [Host USB Responses](host-usb-commands/host-usb-responses.md)
+* [Oscilloscope Trigger](oscilloscope-trigger.md)
 * [Firmware Update](firmware-update/README.md)
   * [Device Release History](firmware-update/device-release-history.md)
 * [Specifications](specifications.md)
-* [Oscilloscope Trigger](oscilloscope-trigger.md)

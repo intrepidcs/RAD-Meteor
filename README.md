@@ -26,6 +26,6 @@ Intrepid’s RAD-Meteor is a cost effective means to add a 10BASE-T1S ([IEEE Std
 * 320 x 240 Color Display for [monitoring network and displaying 10BASE-T1S **** status registers](display-main-screen/)
 * Stand-alone configuration of [10BASE-T1S parameters and test modes](10baset1s-test-modes.md) via 3-button interface [Field updatable firmware](firmware-update/)
 
-FW Revision 1 : [Device Release History](firmware-update/device-release-history.md)
+FW Revision see [Device Release History](firmware-update/device-release-history.md)
 
 [Specifications](specifications.md)
