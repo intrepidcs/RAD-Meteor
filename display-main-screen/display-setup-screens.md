@@ -10,5 +10,6 @@ These setup screens allow you to adjust the parameters below. These parameters a
 4. Transmit Opportunity Timer
 5. Max Burst for Burst Mode
 6. Burst Timer
+7. [Oscilliscope Trigger](../oscilloscope-trigger.md)
 
 <figure><img src="../.gitbook/assets/setup_local_id.png" alt=""><figcaption><p>Figure 1 - Each setup parameter has a screen for adjustment along with helpful information.</p></figcaption></figure>

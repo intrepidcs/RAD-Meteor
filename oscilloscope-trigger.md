@@ -16,7 +16,7 @@ On RAD-Meteor hardware version 1. You can connect to the trigger by attaching a 
 
 ## Trigger Options
 
-The RAD-Meteor currently supports the following triggers listed below.
+The RAD-Meteor currently supports the following triggers listed below. The Trigger is configured on the [setup screens](display-main-screen/display-setup-screens.md).
 
 
 
