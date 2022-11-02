@@ -10,7 +10,7 @@ There are 3 function buttons on the main screen. They are below
 
 "A" to Enter the [Test mode generation feature](../10baset1s-test-modes.md)
 
-"B"  to Enter the simulation mode feature (to be implemented - contact factory)
+"B"  to Enter the [Stand Alone Message Generator](../stand-alone-message-generator.md)
 
 "X" to enter the [device setup](display-setup-screens.md)
 

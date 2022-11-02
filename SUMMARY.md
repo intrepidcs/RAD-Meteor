@@ -11,6 +11,7 @@
 * [Host USB Commands](host-usb-commands/README.md)
   * [Host USB Responses](host-usb-commands/host-usb-responses.md)
 * [Oscilloscope Trigger](oscilloscope-trigger.md)
+* [Stand Alone Message Generator](stand-alone-message-generator.md)
 * [Firmware Update](firmware-update/README.md)
   * [Device Release History](firmware-update/device-release-history.md)
 * [Specifications](specifications.md)
