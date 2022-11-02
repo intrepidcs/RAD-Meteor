@@ -20,7 +20,7 @@ The RAD Meteor example settings app is an open source app from Intrepid. The Win
 
 ## Commands
 
-The data payload begins at 42 bytes. The first two bytes of the payload are the command in big endian format (AA is the first byte).  The command's data begins right after the command (44 bytes). The table below lists the commands.
+The data payload begins at 42 bytes. The first two bytes of the payload are the command in big endian format (AA is the first byte).  The command's data begins right after the command (44 bytes). The table below lists the commands.&#x20;
 
 | Command                      | ID     | Notes |
 | ---------------------------- | ------ | ----- |
@@ -32,6 +32,8 @@ The data payload begins at 42 bytes. The first two bytes of the payload are the 
 ## Settings Command
 
 The settings command allows you to set the device settings from the host. You can optionally have them saved as the power up default. The settings example app uses this command - please reference this app for an example. The settings are the same as described in the [Main Screen topic](../display-main-screen/).
+
+The payload bytes not used should be set to zero for future compatibility.
 
 **Note** The defaults are stored in flash memory and are not meant to be updated 1000's times a day as might happen in a tester application. So do not save settings to flash if its not necessary. The flash typical endurance is 100k writes.
 
@@ -50,4 +52,5 @@ The settings command allows you to set the device settings from the host. You ca
 | HOST\_SETTING\_TEST\_MODE                | 6  | 0 = enter normal mode, 1-4 = [Test Modes](../10baset1s-test-modes.md) (Not saved in flash as default) |
 | HOST\_SETTING\_STATUS\_INTERVAL\_LSB     | 7  | Bytes 7 and 8 are 16 bit value for reporting register status in milliseconds. 0 = disabled            |
 | HOST\_SETTING\_SAVE\_SETTINGS\_TO\_FLASH | 9  | 1 = update as power up defaults, 0 = do not update.                                                   |
+| HOST\_SETTING\_OSCOPE\_TRIGGER           | 10 | 0 = disabled, [x is scope trigger](../oscilloscope-trigger.md)                                        |
 
