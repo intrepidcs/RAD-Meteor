@@ -12,7 +12,7 @@ The Oscilloscope trigger is a function that can generate a pulse to an external 
 
 On RAD-Meteor hardware version 1. You can connect to the trigger by attaching a wire to the GP20 signal as shown below (The Blue Wire). The trigger voltage is a 3.3V output that will go low when the trigger appears. It will automatically rearm after 5 microseconds or less.
 
-{ADD PICTURE}
+<figure><img src=".gitbook/assets/gp20.png" alt=""><figcaption><p>Figure 2 - The blue wire shown connects to the trigger pin GP20.</p></figcaption></figure>
 
 ## Trigger Options
 
