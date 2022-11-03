@@ -6,21 +6,9 @@ Vehicle Spy from Intrepid contains many features for analyzing Ethernet networks
 
 <figure><img src="../.gitbook/assets/vehicle_spy_status.png" alt=""><figcaption><p>Figure 1 -  Vehicle Spy software for transmit and receiving Ethernet.</p></figcaption></figure>
 
-#### Specification&#x20;
-
-* Power Requirements 125mA at 5 V (bus load 1%), 140 mA at 5V (Test Mode 1)&#x20;
-* USB Full Speed interface (12 MBits)&#x20;
-* Micro USB Connector&#x20;
-* Size: 65 mm x 35 mm (17 mm height)
-* &#x20;Field update-able Firmware with un-brickable boot-loader&#x20;
-* USB Network Interface uses OS drivers in Linux and Windows
-
-#### Network&#x20;
-
-* Microchip LAN8670 10BASE-T1S Single Pair Ethernet PHY&#x20;
-* Microchip Recommended LAN86xx Bus Interface Network (BIN)
-* Jumper Termination
-* Terminal block (2 mm screw)
+{% file src="../.gitbook/assets/RADMeteor.vs3" %}
+Setup file for Vehicle Spy 3
+{% endfile %}
 
 ## Setting up Vehicle Spy
 
