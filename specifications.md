@@ -8,7 +8,7 @@
 * Size: 65 mm x 35 mm (17 mm height)
 * Field update-able Firmware with un-brickable boot-loader
 * USB Network Interface uses OS drivers in Linux and Windows
-* Temperature Range (contact support)&#x20;
+* Temperature Range -20 C to 70 C / -4 F to 158 F  (extended temp range possible without display)
 
 ## Network
 
