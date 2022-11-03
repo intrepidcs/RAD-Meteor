@@ -12,6 +12,8 @@ When the script is running there will be a toggling slash on the bottom line of 
 
 Note This feature will be made more configurable in the future. Please contact Intrepid for future updates.
 
+<figure><img src=".gitbook/assets/standalone.gif" alt=""><figcaption><p>Figure 1 - You can run stand alone modes from the sim mode screens.</p></figcaption></figure>
+
 {% file src=".gitbook/assets/simmodes.mp4" %}
 Video of the Stand Alone
 {% endfile %}
