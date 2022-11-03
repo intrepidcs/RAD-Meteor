@@ -10,7 +10,7 @@ description: Overview Page
 
 Intrepid’s RAD-Meteor is a cost effective means to add a 10BASE-T1S ([IEEE Std 802.3cg](https://standards.ieee.org/search/?q=802.3cg)) port to your computer using USB. In addition to monitoring 10BASE-T1S traffic as if it were a standard Ethernet port, the RAD-Meteor network adapter supports the test modes and wave forms required to test the 10BASE-T1S network. RAD-Meteor also has a built-in full color display to view network activity and monitor the 10BASE-T1S status registers.
 
-<figure><img src=".gitbook/assets/radmeteor.png" alt=""><figcaption><p>RADMeteor v1 hardware</p></figcaption></figure>
+<figure><img src=".gitbook/assets/20221103_104340_99_1.gif" alt=""><figcaption></figcaption></figure>
 
 ## Features
 
