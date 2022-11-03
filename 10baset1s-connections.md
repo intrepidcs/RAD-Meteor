@@ -12,6 +12,6 @@ To help connecting wires, the terminal block silkscreen had the the text "P" to 
 
 The schematic for the analog front end termination is shown in figure 2. This is the schematic as designed by the LAN867x PHY manufacturer ([Microchip](https://www.microchip.com) LAN86xx Bus Interface Network (BIN)).
 
-<figure><img src="broken-reference" alt=""><figcaption><p>Figure 1 - 10BaseT1s connector with Termination Jumpers</p></figcaption></figure>
+<figure><img src=".gitbook/assets/T1s Connections.png" alt=""><figcaption><p>Figure 1 - 10BaseT1s connector with Termination Jumpers</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/RAD-MeteorPHY.png" alt=""><figcaption><p>Figure 2 - 10BaseT1s termination network in RAD-Meteor.</p></figcaption></figure>
