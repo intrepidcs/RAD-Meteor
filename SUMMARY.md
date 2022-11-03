@@ -15,3 +15,4 @@
 * [Firmware Update](firmware-update/README.md)
   * [Device Release History](firmware-update/device-release-history.md)
 * [Specifications](specifications.md)
+* [Buy Now](buy-now.md)
