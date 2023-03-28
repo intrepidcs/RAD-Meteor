@@ -27,3 +27,4 @@ The RAD-Meteor currently supports the following triggers listed below. The Trigg
 | Any Rx          | Any received message                             | occurs after message received in total                       |
 | Any Tx          | Any successfully transmitted message             | occurs after the message is successfully transmitted         |
 | Bus Collision   | Physical bus collision - TxCol status bit        | happens when [TxCol status bit](display-main-screen/) is set |
+| Runt Frame      | A runt frame was received                        | A runt frame is a frame under 64 bytes                       |
