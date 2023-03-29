@@ -12,7 +12,7 @@ Intrepid’s RAD-Meteor is a cost effective means to add a 10BASE-T1S ([IEEE Std
 
 ## [BUY NOW](https://store.intrepidcs.com/product/RAD-METEOR-BD)
 
-<figure><img src=".gitbook/assets/20221103_104340_99_1.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/meteor.gif" alt=""><figcaption></figcaption></figure>
 
 ## Features
 
