@@ -10,6 +10,7 @@
 * [Using on Linux](using-on-linux.md)
 * [Host USB Commands](host-usb-commands/README.md)
   * [Host USB Responses](host-usb-commands/host-usb-responses.md)
+* [LED Indicators](led-indicators.md)
 * [Oscilloscope Trigger](oscilloscope-trigger.md)
 * [Stand Alone Message Generator](stand-alone-message-generator.md)
 * [Firmware Update](firmware-update/README.md)
