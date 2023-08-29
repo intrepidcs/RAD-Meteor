@@ -14,7 +14,9 @@ Please see the RAD-Meteor settings project on GitHub to use as an example app (F
 
 The RAD Meteor example settings app is an open source app from Intrepid. The Windows App is below. You need to install [WinPCAP ](https://www.winpcap.org/install/)for this to work.
 
-{% file src="../.gitbook/assets/RADMeteorSettingsV1.zip" %}
+{% file src="../.gitbook/assets/RADMeteorSettingsV3.zip" %}
+Example Windows Console app to change settings
+{% endfile %}
 
 <figure><img src="../.gitbook/assets/settings_app.png" alt=""><figcaption><p>Figure 1 - The settings example is a winpcap application that sends the settings host command.</p></figcaption></figure>
 
@@ -22,12 +24,7 @@ The RAD Meteor example settings app is an open source app from Intrepid. The Win
 
 The data payload begins at 42 bytes. The first two bytes of the payload are the command in big endian format (AA is the first byte).  The command's data begins right after the command (44 bytes). The table below lists the commands.&#x20;
 
-| Command                      | ID     | Notes |
-| ---------------------------- | ------ | ----- |
-| HOST\_COMMAND\_SET\_SETTINGS | 0xAA01 |       |
-|                              |        |       |
-
-
+<table><thead><tr><th width="344">Command</th><th width="182">ID</th><th>Notes</th></tr></thead><tbody><tr><td>HOST_COMMAND_SET_SETTINGS</td><td>0xAA01</td><td></td></tr></tbody></table>
 
 ## Settings Command
 
@@ -41,16 +38,5 @@ The payload bytes not used should be set to zero for future compatibility.
 
 **Data**
 
-| Position                                 | ID | Notes                                                                                                 |
-| ---------------------------------------- | -- | ----------------------------------------------------------------------------------------------------- |
-| HOST\_SETTING\_PLCA\_ENABLE              | 0  | 1 to enable, 0 Disable                                                                                |
-| HOST\_SETTING\_PLCA\_LOCAL\_ID           | 1  |                                                                                                       |
-| HOST\_SETTING\_BUS\_NODE\_COUNT          | 2  |                                                                                                       |
-| HOST\_SETTING\_MAX\_BURST\_CNT           | 3  |                                                                                                       |
-| HOST\_SETTING\_BURST\_TIMER              | 4  |                                                                                                       |
-| HOST\_SETTING\_TX\_OPP\_TMR              | 5  |                                                                                                       |
-| HOST\_SETTING\_TEST\_MODE                | 6  | 0 = enter normal mode, 1-4 = [Test Modes](../10baset1s-test-modes.md) (Not saved in flash as default) |
-| HOST\_SETTING\_STATUS\_INTERVAL\_LSB     | 7  | Bytes 7 and 8 are 16 bit value for reporting register status in milliseconds. 0 = disabled            |
-| HOST\_SETTING\_SAVE\_SETTINGS\_TO\_FLASH | 9  | 1 = update as power up defaults, 0 = do not update.                                                   |
-| HOST\_SETTING\_OSCOPE\_TRIGGER           | 10 | 0 = disabled, [x is scope trigger](../oscilloscope-trigger.md)                                        |
+<table><thead><tr><th width="437">Position</th><th width="74">ID</th><th>Notes</th></tr></thead><tbody><tr><td>HOST_SETTING_PLCA_ENABLE</td><td>0</td><td>1 to enable, 0 Disable</td></tr><tr><td>HOST_SETTING_PLCA_LOCAL_ID</td><td>1</td><td></td></tr><tr><td>HOST_SETTING_BUS_NODE_COUNT</td><td>2</td><td></td></tr><tr><td>HOST_SETTING_MAX_BURST_CNT</td><td>3</td><td></td></tr><tr><td>HOST_SETTING_BURST_TIMER</td><td>4</td><td></td></tr><tr><td>HOST_SETTING_TX_OPP_TMR</td><td>5</td><td></td></tr><tr><td>HOST_SETTING_TEST_MODE</td><td>6</td><td>0 = enter normal mode, 1-4 = <a href="../10baset1s-test-modes.md">Test Modes</a> (Not saved in flash as default)</td></tr><tr><td>HOST_SETTING_STATUS_INTERVAL_LSB</td><td>7</td><td>Bytes 7 and 8 are 16 bit value for reporting register status in milliseconds. 0 = disabled</td></tr><tr><td>HOST_SETTING_SAVE_SETTINGS_TO_FLASH</td><td>9</td><td>1 = update as power up defaults, 0 = do not update. </td></tr><tr><td>HOST_SETTING_OSCOPE_TRIGGER</td><td>10</td><td>0 = disabled, <a href="../oscilloscope-trigger.md">x is scope trigger</a></td></tr></tbody></table>
 

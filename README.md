@@ -1,7 +1,3 @@
----
-description: Overview Page
----
-
 # RAD-Meteor
 
 ## Overview&#x20;
@@ -25,9 +21,9 @@ Intrepid’s RAD-Meteor is a cost effective means to add a 10BASE-T1S ([IEEE Std
 * [Device configuration](host-usb-commands/) and [status register reporting](host-usb-commands/host-usb-responses.md) over USB Ethernet frames
 * [Oscilloscope Trigger](oscilloscope-trigger.md) on bus events
 * [Stand alone message generator](stand-alone-message-generator.md)
-* 320 x 240 Color Display for [monitoring network and displaying 10BASE-T1S **** status registers](display-main-screen/)
+* 320 x 240 Color Display for [monitoring network and displaying 10BASE-T1S status registers](display-main-screen/)
 * Stand-alone configuration of [10BASE-T1S parameters and test modes](10baset1s-test-modes.md) via 5-button interface
-* [7 LEDs for indication](led-indicators.md) of network and device status
+* [7 LEDs for indication](led-indicators/) of network and device status
 * &#x20;[Field updatable firmware](firmware-update/)
 
 FW Revision see [Device Release History](firmware-update/device-release-history.md)
