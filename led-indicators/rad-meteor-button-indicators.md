@@ -2,7 +2,7 @@
 
 The following RAD-Meteor User Interface shows the Button Indicators.
 
-<figure><img src="../.gitbook/assets/RAD Meteor – 1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/RAD-Meteor.png" alt=""><figcaption></figcaption></figure>
 
 Note - Some LEDs are redundant with GUI
 
