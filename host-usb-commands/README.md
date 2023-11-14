@@ -1,6 +1,6 @@
 # Host USB Commands
 
-**NOTE : This topic may change significantly based on further review and testing.**
+**NOTE : This feature is currently disabled. Contact Intrepid support for availability.**&#x20;
 
 ## Overview
 
