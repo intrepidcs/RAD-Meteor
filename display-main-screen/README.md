@@ -1,24 +1,22 @@
 # Display: Main Screen
 
-The default screen for RAD-Meteor shows statistics of the T1s network. Figure 1 below shows the main screen.
+[rad-meteor-button-indicators.md](../led-indicators/rad-meteor-button-indicators.md "mention")[led-indicators](../led-indicators/ "mention")The default screen for RAD-Meteor shows the setup and statistics of the T1s network. Figure 1 below shows the main screen.
 
-<figure><img src="../.gitbook/assets/Meteor_MainScreen.png" alt=""><figcaption><p>Figure 1 - The Meteor main screen contains a lot of information about the state of the network.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/MainScreenDescription.png" alt=""><figcaption><p>Figure 1 - The Meteor main screen contains a lot of information about the state of the network.</p></figcaption></figure>
 
-{% file src="../.gitbook/assets/mainscreen.mp4" %}
-Video of main screen on RAD-Meteor.
-{% endfile %}
+##
+
+<figure><img src="../.gitbook/assets/MainScreen.gif" alt=""><figcaption></figcaption></figure>
 
 ## Buttons
 
-There are 3 function buttons on the main screen. They are below
+There are 5 function buttons on the main screen. They are described in the topic below.&#x20;
 
-"A" to Enter the [Test mode generation feature](../10baset1s-test-modes.md)
+{% content-ref url="../led-indicators/rad-meteor-button-indicators.md" %}
+[rad-meteor-button-indicators.md](../led-indicators/rad-meteor-button-indicators.md)
+{% endcontent-ref %}
 
-"B"  to Enter the [Stand Alone Message Generator](../stand-alone-message-generator.md). This will also clear the statistics for the main screen.
 
-"X" to enter the [device setup](display-setup-screens.md)
-
-"Y" is not functional
 
 ## Device Setup Information
 
@@ -38,12 +36,12 @@ The first two lines of the display show the device's setup.
 
 The display indicates statistics on numbers sent and received by the device. They are in the table below.
 
-| Caption              | Description                                                                                                    | Notes                                                            |
-| -------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| Rx Count             | The number of frames received by RAD-Meteor                                                                    |                                                                  |
-| Tx Count             | The number of frames transmitted by RAD-Meteor                                                                 |                                                                  |
-| Logical Col(lisions) | The number of transmits that were retried because of PLCA assertions of the COL (MII Collision Pin) indication | This is the normal function of PLCA and not an error             |
-| Bus Data Bar graph   | This indicates how many network bytes have been received  over 100 ms time.                                    | The maximum scale of bar- graph is the maximum bytes per 100 ms. |
+| Caption              | Description                                                                                                                    | Notes                                                            |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- |
+| Rx Count             | The number of frames received by RAD-Meteor                                                                                    |                                                                  |
+| Tx Count             | The number of frames transmitted by RAD-Meteor                                                                                 |                                                                  |
+| Logical Col(lisions) | The number of transmits that were retried because of PLCA assertions of the COL (MII Collision Pin) indication                 | This is the normal function of PLCA and not an error             |
+| Bus Data Bar graph   | This indicates how many network bytes have been received  over 100 ms time. It also indicates the size of the last RX packet.  | The maximum scale of bar- graph is the maximum bytes per 100 ms. |
 
 ## PHY Status Registers
 
