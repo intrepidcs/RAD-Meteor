@@ -18,7 +18,6 @@ Intrepid’s RAD-Meteor is a cost effective means to add a 10BASE-T1S ([IEEE Std
 * TX/RX with socket applications
 * Microchip LAN867X 10BASE-T1S PHY
 * [Terminal Block](10baset1s-connections.md) with optional termination for T1s connections
-* [Device configuration](host-usb-commands/) and [status register reporting](host-usb-commands/host-usb-responses.md) over USB Ethernet frames
 * [Oscilloscope Trigger](oscilloscope-trigger.md) on bus events
 * [Stand alone message generator](stand-alone-message-generator.md)
 * 320 x 240 Color Display for [monitoring network and displaying 10BASE-T1S status registers](display-main-screen/)
