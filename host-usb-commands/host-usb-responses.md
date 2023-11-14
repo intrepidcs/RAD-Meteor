@@ -1,5 +1,7 @@
 # Host USB Responses
 
+**NOTE : This feature is currently disabled. Contact Intrepid support for availability.**&#x20;
+
 ## Overview
 
 The RAD-Meteor can generate Ethernet frames that occur across the USB interface only. These responses allow the RAD-Meteor to communicate status to the host.  For example, these responses can provide additional information about the T1s network. For example the status message contains status information like on the [main screen](../display-main-screen/).
