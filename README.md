@@ -19,7 +19,7 @@ Intrepid’s RAD-Meteor is a cost effective means to add a 10BASE-T1S ([IEEE Std
 * Microchip LAN867X 10BASE-T1S PHY
 * Removable [Terminal Block](10baset1s-connections.md) with optional termination for T1s connections
 * [Oscilloscope Trigger](oscilloscope-trigger.md) on bus events
-* [Stand alone Packet generator](stand-alone-packet-generator.md)
+* [Stand Alone Packet generator](stand-alone-packet-generator.md)
 * 320 x 240 Color Display for [monitoring network and displaying 10BASE-T1S status registers](display-main-screen/)
 * Stand-alone configuration of [10BASE-T1S parameters and test modes](10baset1s-test-modes.md) via 5-button interface
 * [7 LEDs for indication](led-indicators/) of network and device status
