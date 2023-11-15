@@ -1,6 +1,8 @@
 # Display: Main Screen
 
-[rad-meteor-button-indicators.md](../led-indicators/rad-meteor-button-indicators.md "mention")[led-indicators](../led-indicators/ "mention")The default screen for RAD-Meteor shows the setup and statistics of the T1s network. Figure 1 below shows the main screen.
+## Overview
+
+The default screen for RAD-Meteor shows the setup and statistics of the T1s network. Figure 1 below shows the main screen.
 
 <figure><img src="../.gitbook/assets/MainScreenDescription.png" alt=""><figcaption><p>Figure 1 - The Meteor main screen contains a lot of information about the state of the network.</p></figcaption></figure>
 
