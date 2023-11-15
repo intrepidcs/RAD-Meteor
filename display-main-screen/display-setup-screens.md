@@ -6,21 +6,21 @@ These setup screens allow you to adjust the parameters below. These parameters w
 
 
 
-| Setting                                            | Description                                                                                           | Notes                                   |
-| -------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| PLCA Enabled                                       |                                                                                                       |                                         |
-| PLCA Local ID                                      |                                                                                                       |                                         |
-| Node Count                                         |                                                                                                       |                                         |
-| Transmit Opportunity Timer                         |                                                                                                       |                                         |
-| Max Burst for Burst Mode                           |                                                                                                       |                                         |
-| Burst Timer                                        |                                                                                                       |                                         |
-| Oscilloscope[ Trigger](../oscilloscope-trigger.md) | Selection for trigger type                                                                            |                                         |
-| Tx IFG                                             | Inter -frame gap for transmit messages                                                                |                                         |
-| Tx Cnt                                             | Number of Transmits in the [packet generator](../stand-alone-message-generator.md)                    |                                         |
-| Delay                                              | Delay in micro seconds between packets in the [packet generator](../stand-alone-message-generator.md) |                                         |
-| Size                                               | Size of the packet in the [packet generator](../stand-alone-message-generator.md)                     | Size = 0 generates a random size packet |
-| Rate                                               | Line Rate setting in the [packet generator](../stand-alone-message-generator.md)                      |                                         |
-|                                                    |                                                                                                       |                                         |
+| Setting                                            | Description                                                                                          | Notes                                   |
+| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| PLCA Enabled                                       |                                                                                                      |                                         |
+| PLCA Local ID                                      |                                                                                                      |                                         |
+| Node Count                                         |                                                                                                      |                                         |
+| Transmit Opportunity Timer                         |                                                                                                      |                                         |
+| Max Burst for Burst Mode                           |                                                                                                      |                                         |
+| Burst Timer                                        |                                                                                                      |                                         |
+| Oscilloscope[ Trigger](../oscilloscope-trigger.md) | Selection for trigger type                                                                           |                                         |
+| Tx IFG                                             | Inter -frame gap for transmit messages                                                               |                                         |
+| Tx Cnt                                             | Number of Transmits in the [packet generator](../stand-alone-packet-generator.md)                    |                                         |
+| Delay                                              | Delay in micro seconds between packets in the [packet generator](../stand-alone-packet-generator.md) |                                         |
+| Size                                               | Size of the packet in the [packet generator](../stand-alone-packet-generator.md)                     | Size = 0 generates a random size packet |
+| Rate                                               | Line Rate setting in the [packet generator](../stand-alone-packet-generator.md)                      |                                         |
+|                                                    |                                                                                                      |                                         |
 
 
 

@@ -13,7 +13,7 @@
 * [LED Indicators](led-indicators/README.md)
   * [RAD-Meteor Button Indicators](led-indicators/rad-meteor-button-indicators.md)
 * [Oscilloscope Trigger](oscilloscope-trigger.md)
-* [Stand Alone Message Generator](stand-alone-message-generator.md)
+* [Stand Alone Packet Generator](stand-alone-packet-generator.md)
 * [Firmware Update](firmware-update/README.md)
   * [Device Release History](firmware-update/device-release-history.md)
 * [Specifications](specifications.md)
